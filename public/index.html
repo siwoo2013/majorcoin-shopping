@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#6f3c91" />
+  <title>메이저코인 쇼핑몰 | 포인트 충전 쇼핑몰</title>
+  <meta name="description" content="메이저코인 쇼핑몰에서 생활, 디지털, 패션, 식품, 뷰티 상품을 확인하세요.">
+  <link rel="canonical" href="/">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="stylesheet" href="/style.css?v=1.6.17" />
+<link rel="manifest" href="/manifest.json"><meta name="theme-color" content="#6f3c91">
+<meta property="og:title" content="메이저코인 쇼핑몰"><meta property="og:description" content="코인·현금이체 포인트 충전 쇼핑몰">
+<meta property="og:image" content="/images/sns-share.svg?v=1.6.17"><meta property="og:type" content="website"></head>
+<body>
+  <header class="topbar">
+    <button id="installBtn" class="outline home-install" type="button">홈 바로가기</button>
+    <div class="brand-wrap">
+      <div class="brand">메이저코인 쇼핑몰</div>
+      <div class="subtitle">Major Coin · Point Shopping</div>
+    </div>
+    <div class="top-actions"><button id="ordersBtn" class="outline hidden">주문내역</button><button id="topCartBtn" class="outline">장바구니 <b id="topCartCount">0</b></button><button id="loginBtn" class="outline">로그인</button></div>
+  </header>
+  <nav class="store-nav" aria-label="상품 카테고리"><button class="active" data-cat="전체">홈</button><button data-cat="생활">생활</button><button data-cat="디지털">디지털</button><button data-cat="패션">패션</button><button data-cat="식품">식품</button><button data-cat="뷰티">뷰티</button><button data-cat="기타">기타</button></nav>
+
+
+  <main>
+    <section class="hero-slider" aria-label="메인 슬라이드 배너"><div class="hero-track"><div class="hero-slide"><img src="/images/banners/banner1.png" alt="Blog24 슬라이드 배너 1"></div><div class="hero-slide"><img src="/images/banners/banner2.png" alt="Blog24 슬라이드 배너 2"></div></div></section><button id="shopBtn" class="sr-shop">상품 보러가기</button>
+
+    <section id="products" class="section">
+      <div class="section-title">
+        <h2>추천 상품</h2>
+        <span>가격 단위 원</span>
+      </div>
+      <div id="productGrid" class="grid"></div>
+    </section>
+  </main>
+  <button class="quick-shorts" id="quickShorts" title="쇼츠 퀵배너">▶<small>SHORTS</small></button>
+
+  <div id="cartBar" class="cartbar hidden">
+    <div><strong id="cartCount">0</strong>개 상품 · <strong id="cartTotal">0</strong>원</div>
+    <button id="checkoutBtn">포인트로 결제</button>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="/app.js?v=1.6.17"></script>
+<script>if("serviceWorker"in navigator)navigator.serviceWorker.register("/sw.js").catch(console.error)</script><footer class="site-footer" id="siteFooter"><b id="footerStoreName">메이저코인 쇼핑몰</b><div id="footerCopy"></div><div class="footer-links"><button id="termsBtn">이용약관</button><button id="privacyBtn">개인정보처리방침</button></div><small id="footerCopyright">Copyright © 2026 메이저코인 쇼핑몰. All rights reserved.</small></footer></body>
+</html>
