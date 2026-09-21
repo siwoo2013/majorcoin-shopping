@@ -1,6 +1,6 @@
 {
   "name": "majorcoin-shopping",
-  "version": "1.6.20",
+  "version": "2.3.0",
   "private": true,
   "description": "Major Coin Shopping - member point shopping mall",
   "main": "server.js",
