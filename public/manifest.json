@@ -1,10 +1,10 @@
 {
   "name": "메이저코인 쇼핑몰",
-  "short_name": "Blog24",
+  "short_name": "메이저코인",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#6f3c91",
+  "theme_color": "#b7791f",
   "icons": [
     {
       "src": "/images/app-icon.svg",
